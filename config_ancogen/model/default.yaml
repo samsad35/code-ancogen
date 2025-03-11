@@ -1,0 +1,16 @@
+# @package _group_
+dimensions:
+   audio: [320, 1, 256, 1024]
+   pitch: [80, 4, 400, 256]
+   content: [200, 1, 101, 1024]
+   loudness: [80, 4, 105, 256]
+   identity: [80, 4, 251, 256]
+
+parameters:
+  encoder_num_layer: 6
+  encoder_num_head: 4
+  decoder_num_layer: 6
+  decoder_num_head: 4
+  pos_embedding_trained: True
+  dim_tokens: [8192, 351, 100, 101, 251]
+  mlp_ratio: 2.0
