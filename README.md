@@ -41,8 +41,8 @@ ancogen = NestAnCoGen(ancogen=model, hifigan=generator, vqvae=vqvae, improved=Fa
 
 | Model         	 |        Link    	        | 
 |:---------------:|:-----------------------:|
-| Speech-VQVAE 	  |       [link]() 	        | 
-|   HiFi-GAN 	    |       [link]() 	        | 	
+| Speech-VQVAE 	  |       [link](https://huggingface.co/samir-sadok/AnCoGen-VQVAE-LibriSpeech/tree/main) 	        | 
+|   HiFi-GAN 	    |       [link](https://huggingface.co/samir-sadok/AnCoGen-HiFiGAN/tree/main) 	        | 	
 |    AnCoGen 	    | [link]()  / [link]() (Improved) 	 | 
 
 
