@@ -1,5 +1,5 @@
 # AnCoGen: Analysis, Control and Generation of Speech with a Masked Autoencoder
-[![Generic badge](https://img.shields.io/badge/<STATUS>-<in_progress>-<COLOR>.svg)](https://github.com/samsad35/source-filter-vae)
+[![Generic badge](https://img.shields.io/badge/<STATUS>-<in_progress>-<COLOR>.svg)](https://github.com/samsad35/code-ancogen)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://samsad35.github.io/site-ancogen)
 [![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://test.pypi.org/project/ancogen/)
@@ -99,13 +99,13 @@ audio = ancogen.preprocess(PATH_AUDIO)
 audio, attributes = ancogen.analyse(audio, apply_max=True)
 
 # Control with AnCoGen
-ancogen.pitch_control(attributes, target_pitch) 
+ancogen.pitch_control(attributes, target_pitch, **kwargs) 
 
-ancogen.content_control(attributes, target_content_index)
+ancogen.content_control(attributes, target_content_index, **kwargs)
 
-ancogen.snr_control(attributes, target_snr)
+ancogen.snr_control(attributes, target_snr, **kwargs)
 
-ancogen.c50_control(attributes, target_c50)
+ancogen.c50_control(attributes, target_c50, **kwargs)
 
 ancogen.voice_conversion(target_identity: str, source_signal: str, save_dir: str = '')
 ```
