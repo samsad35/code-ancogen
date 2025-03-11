@@ -296,7 +296,7 @@ class NestAnCoGen:
                         stoi_v=d,
                         similarity=similarity)
 
-    def control_pitch(self, attributes,
+    def pitch_control(self, attributes,
                       target: Union[int, torch.Tensor],
                       additive: bool = True,
                       **kwargs
@@ -342,7 +342,7 @@ class NestAnCoGen:
         # Generate the signal with the new pitch
         self.generate(from_attributes=tuple(attributes), **kwargs)
 
-    def control_content(self, attributes,
+    def content_control(self, attributes,
                         target: Union[int, torch.Tensor],
                         **kwargs):
         """
@@ -375,7 +375,7 @@ class NestAnCoGen:
         # Generate the signal with the new content
         self.generate(from_attributes=tuple(attributes), **kwargs)
 
-    def control_snr(self, attributes,
+    def snr_control(self, attributes,
                     target: Union[int, torch.Tensor],
                     **kwargs):
         """
@@ -408,7 +408,7 @@ class NestAnCoGen:
         # Generate the signal with the new SNR
         self.generate(from_attributes=tuple(attributes), **kwargs)
 
-    def control_c50(self, attributes,
+    def c50_control(self, attributes,
                     target: Union[int, torch.Tensor],
                     **kwargs):
         """
@@ -441,7 +441,7 @@ class NestAnCoGen:
         # Generate the signal with the new C50
         self.generate(from_attributes=tuple(attributes), **kwargs)
 
-    def control_identity(self,
+    def voice_conversion(self,
                          target_identity: str,
                          source_signal: str,
                          save_dir: str = ''):

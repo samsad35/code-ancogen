@@ -1,2 +1,4 @@
 checkpoint/**
 wavs/**
+.idea/**
+__pycache__

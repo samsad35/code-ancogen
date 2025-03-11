@@ -79,7 +79,7 @@ class TestAnCoGen(unittest.TestCase):
         # Print the results
         print(attributes)
 
-    def test_generate(self):
+    def test_generation(self):
         """
         Test the generate function of NestAnCoGen.
         """
