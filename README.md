@@ -109,3 +109,6 @@ ancogen.c50_control(attributes, target_c50)
 
 ancogen.voice_conversion(target_identity: str, source_signal: str, save_dir: str = '')
 ```
+
+## License
+GNU Affero General Public License (version 3), see LICENSE.txt.
