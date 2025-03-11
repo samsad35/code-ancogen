@@ -111,4 +111,4 @@ ancogen.voice_conversion(target_identity: str, source_signal: str, save_dir: str
 ```
 
 ## License
-GNU Affero General Public License (version 3), see LICENSE.txt.
+> GNU Affero General Public License (version 3), see LICENSE.txt.
