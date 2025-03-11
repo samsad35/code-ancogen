@@ -19,8 +19,8 @@ Useful links:
 
 ## Setup 
 - [ ] Pypi:  
-  - ```pip install -i https://test.pypi.org/simple/ sf-vae --no-deps```
-- [ ] Install the package locally (for use on your system):  
+  - ```pip install -i https://test.pypi.org/simple/ ancogen --no-deps```
+- [x] Install the package locally (for use on your system):  
   - In the current directory: ```pip install -e .```
 - [x] Virtual Environment: 
   - ```conda create -n ancogen python=3.9```
